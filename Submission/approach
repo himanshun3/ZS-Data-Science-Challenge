@@ -1,0 +1,26 @@
+The Steps that were taken to build the model are:
+
+1. Importing data.
+2. Droping Merchant_ID from train data.
+3. Grouping data by Year,Month,ProductID,Country and Calculating the sum of sales.
+4. MAking a list of Unique Countries.
+5. Making a list of Unique Produt_ID for every Country.
+6. One Hot Encoding of the column Country
+7. Droping the sales column from test data.
+8. Using RandomForestRegressor to train the model.
+9. Using Hyperparameter Tuning to tune the parameters.
+10. Predicting on the test dataset.
+11. Submitting the model as a csv file.
+
+The tools that were used are:-
+1. Jupyter Notebook
+2. Anaconda
+3. Pandas
+4. Numpy
+5. Sklearn
+6. Pprint
+7. RandomizedSearchCV
+8. RandomForestRegressor
+
+Correlation Matrix was plotted for feature Engineering.
+
